@@ -1,7 +1,7 @@
 about: docs/about.md
 description: StackSpot Data Apache Spark
 display-name: Apache Spark
-category: Data
+category: Analytics
 compatibility:
   - Python
 name: stackspot-data-apache-spark
