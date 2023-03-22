@@ -1,0 +1,12 @@
+about: docs/about.md
+name: apache-spark-plugin
+category: Analytics
+compatibility:
+  - Python
+description: Apache Spark Plugin
+display-name: Apache Spark Plugin
+technologies:
+  - Apache Spark
+  - Python
+types:
+  - data

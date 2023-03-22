@@ -6,5 +6,7 @@ inputs:
   write_checkpoint_location: "s3://stackspot/checkpoint"
   write_format: "delta"
   write_table: "database.table"
+plugins:
+  - plugin: stackspot-data-apache-spark/apache-spark
 template: stackspot-data-apache-spark/apache-spark-template
 type: data
