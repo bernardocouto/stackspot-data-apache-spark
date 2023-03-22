@@ -1,0 +1,10 @@
+description: Apache Spark
+inputs:
+  project_name: "stackspot_data_apache_spark"
+  read_format: "parquet"
+  read_load: "s3://stackspot/data"
+  write_checkpoint_location: "s3://stackspot/checkpoint"
+  write_format: "delta"
+  write_table: "database.table"
+template: stackspot-data-apache-spark/apache-spark-template
+type: data

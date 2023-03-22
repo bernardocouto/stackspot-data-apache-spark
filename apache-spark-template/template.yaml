@@ -1,0 +1,32 @@
+name: apache-spark-template
+description: Apache Spark Template
+global-computed-inputs:
+  project_name_normalized: "{{inputs.project_name|replace('-', '_')|lower}}"
+  write_table_normalized: "{{inputs.write_table|replace('-', '_')|lower}}"
+inputs:
+  - label: Project Name
+    default: project-name
+    name: project_name
+    type: text
+  - label: Read Format
+    default: read-format
+    name: read_format
+    type: text
+  - label: Read Load
+    default: read-load
+    name: read_load
+    type: text
+  - label: Write Checkpoint Location
+    default: write-checkpoint-location
+    name: write_checkpoint_location
+    type: text
+  - label: Write Format
+    default: write-format
+    name: write_format
+    type: text
+  - label: Write Table
+    default: write-table
+    name: write_table
+    type: text
+types:
+  - data
