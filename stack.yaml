@@ -5,6 +5,7 @@ category: Analytics
 compatibility:
   - Python
 name: stackspot-data-apache-spark
+picture: stack.png
 technologies:
   - Apache Spark
   - Python
