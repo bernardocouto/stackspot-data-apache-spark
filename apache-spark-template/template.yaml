@@ -29,4 +29,4 @@ inputs:
     name: write_table
     type: text
 types:
-  - data
+  - app-template
